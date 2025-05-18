@@ -1,0 +1,13 @@
+[run]
+branch = True
+source =
+    app.domain
+    app.services
+
+[report]
+omit =
+    */tests/*
+    main.py
+
+[html]
+directory = htmlcov
